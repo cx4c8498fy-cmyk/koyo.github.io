@@ -90,10 +90,6 @@ p {
   color: var(--text-muted);
 }
 
-.about p + p {
-  margin-top: 12px;
-}
-
 a {
   color: var(--text-main);
   text-decoration: none;
@@ -119,28 +115,6 @@ a:hover {
 .site-title {
   margin: 0;
   line-height: 1.1;
-}
-
-.hero {
-  margin-top: 28px;
-}
-
-.hero-banner {
-  background: linear-gradient(135deg, #0c1530 0%, #1b2d5e 45%, #060a14 100%);
-  border: 1px solid var(--border-soft);
-  border-radius: 20px;
-  min-height: 160px;
-  display: grid;
-  place-items: center;
-  text-align: center;
-  padding: 24px;
-  box-shadow: var(--shadow-soft);
-}
-
-.hero-banner p {
-  font-family: "Cinzel", "Noto Serif JP", serif;
-  font-size: clamp(1rem, 2.2vw, 1.4rem);
-  color: var(--text-main);
 }
 
 section {
@@ -178,10 +152,6 @@ section {
   width: fit-content;
 }
 
-.about .button-link {
-  margin-top: 16px;
-}
-
 .apps .button-link {
   margin-top: 16px;
 }
@@ -189,32 +159,6 @@ section {
 .button-link:hover {
   color: #fff;
   filter: brightness(1.05);
-}
-
-.paper-form {
-  margin-top: 12px;
-  display: grid;
-  gap: 10px;
-  max-width: 520px;
-}
-
-.paper-form label {
-  color: var(--text-muted);
-  font-size: 0.95rem;
-}
-
-.paper-form input {
-  background: #0a1020;
-  border: 1px solid var(--border-soft);
-  border-radius: 12px;
-  padding: 12px 14px;
-  color: var(--text-main);
-  font-size: 0.95rem;
-}
-
-.paper-form input:focus {
-  outline: 1px solid #3c63ff;
-  border-color: transparent;
 }
 
 .contact-links {
