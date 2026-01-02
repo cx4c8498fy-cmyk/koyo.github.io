@@ -139,26 +139,44 @@ section {
   gap: 12px;
 }
 
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
 .button-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 16px;
+  padding: 8px 18px;
   border-radius: 999px;
-  background: linear-gradient(120deg, var(--accent), #3f75ff);
-  color: #fff;
-  font-size: 0.9rem;
-  letter-spacing: 0.03em;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border-soft);
+  color: var(--text-main);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   width: fit-content;
 }
 
-.apps .button-link {
+.button-link--inline {
+  padding: 6px 12px;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+.apps .button-link:not(.button-link--inline) {
   margin-top: 16px;
 }
 
 .button-link:hover {
-  color: #fff;
-  filter: brightness(1.05);
+  color: var(--text-main);
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 .contact-links {
