@@ -3,70 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Koyo Kuze</title>
+  <title>KUZE World</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main>
-    <!-- Hero -->
-    <header class="hero">
-      <h1>Koyo Kuze</h1>
-      <p class="subtitle">Data Scientist / App Developer / Writer</p>
+  <main class="page">
+    <header class="site-header">
+      <h1 class="site-title">KUZE World</h1>
     </header>
 
-    <!-- About -->
-    <section>
+    <section class="hero">
+      <div class="hero-banner">
+        <p>ここに、僕の世界を作る</p>
+      </div>
+    </section>
+
+    <section class="about">
       <h2>About</h2>
       <p>
-        個人でモバイルアプリの開発を行い、技術や考えたことを
-        <a href="https://note.com/world_statistics" target="_blank" rel="noopener">note</a>
-        に書いています。<br />
-        世界観を大事にしています。
+        データサイエンスや統計、AIを基盤に、アプリ開発、教材制作、ゲーム開発、音楽・イラスト制作、論文執筆などを通して世界を表現しています。
       </p>
     </section>
 
-    <!-- Apps -->
-    <section>
+    <section class="apps">
       <h2>Apps</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>TASS kun</h3>
+          <p>タスク管理アプリ</p>
+          <a class="button-link" href="https://apps.apple.com/jp/app/tass-kun/id6756688086" target="_blank" rel="noopener">App Store</a>
+        </article>
 
-      <div class="app">
-        <h3>TASS kun</h3>
-        <ul>
-          <li>タスク管理アプリ</li>
-          <li><a href="https://apps.apple.com/jp/app/tass-kun/id6756688086" target="_blank" rel="noopener">App Store</a></li>
-        </ul>
-      </div>
-
-      <div class="app">
-        <h3>麻雀アプリ</h3>
-        <ul>
-          <li>麻雀の点数計算・練習用</li>
-          <li><a href="#" target="_blank" rel="noopener">App Store</a></li>
-        </ul>
+        <article class="card">
+          <h3>麻雀アプリ</h3>
+          <p>麻雀の点数計算・練習用</p>
+          <a class="button-link" href="https://apps.apple.com/jp/app/mjscore/id6757116718" target="_blank" rel="noopener">App Store</a>
+        </article>
       </div>
     </section>
 
-    <!-- Writing -->
-    <section>
-      <h2>Writing</h2>
+    <section class="statistics">
+      <h2>Statistics</h2>
       <p>
-        <a href="https://note.com/world_statistics" target="_blank" rel="noopener">note</a><br />
-        技術・開発・考えたことを書いています。
+        <a href="https://note.com/world_statistics" target="_blank" rel="noopener">note</a>
+        にて、統計の教材を公開中
       </p>
     </section>
 
-    <!-- Contact -->
-    <section>
+    <section class="academic">
+      <h2>Academic</h2>
+      <form class="paper-form">
+        <label for="paper-url">論文リンク</label>
+        <input type="url" id="paper-url" name="paper-url" placeholder="https://www.sciencedirect.com/science/article/pii/S0165027025002882?via%3Dihub" />
+      </form>
+    </section>
+
+    <section class="contact">
       <h2>Contact</h2>
-      <ul class="contact">
+      <ul class="contact-links">
         <li><a href="https://x.com/" target="_blank" rel="noopener">X</a></li>
         <li><a href="https://github.com/cx4c8498fy-cmyk" target="_blank" rel="noopener">GitHub</a></li>
-        <li><a href="kkxyxz@gmail.com">Email</a></li>
+        <li><a href="mailto:kkxyxz@gmail.com">Email</a></li>
       </ul>
     </section>
 
-    <!-- Footer -->
-    <footer>
+    <footer class="site-footer">
       <small>Last updated: 2026-01</small>
     </footer>
   </main>
