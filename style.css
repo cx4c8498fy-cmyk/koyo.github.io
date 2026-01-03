@@ -21,9 +21,9 @@
 body {
   margin: 0;
   font-family: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
-  background: radial-gradient(circle at 20% 20%, #0f1f3a 0%, transparent 45%),
-    radial-gradient(circle at 80% 10%, #1a2a57 0%, transparent 40%),
-    linear-gradient(160deg, var(--bg-main), #070b15 45%, var(--bg-deep));
+  background: radial-gradient(circle at 20% 20%, #16284a 0%, transparent 50%),
+    radial-gradient(circle at 80% 10%, #223166 0%, transparent 45%),
+    linear-gradient(160deg, #080b13, #0b1120 45%, #060b16);
   color: var(--text-main);
   min-height: 100vh;
 }
