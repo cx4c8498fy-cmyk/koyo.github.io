@@ -263,6 +263,10 @@ section {
   section {
     margin-top: 32px;
   }
+
+  .feature-media img {
+    max-width: 140px;
+  }
 }
 
 @media (min-width: 900px) {
