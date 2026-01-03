@@ -146,6 +146,14 @@ section {
   gap: 12px;
 }
 
+.section-break {
+  margin-top: 16px;
+}
+
+.page-back {
+  margin-top: 20px;
+}
+
 .button-link {
   display: inline-flex;
   align-items: center;
