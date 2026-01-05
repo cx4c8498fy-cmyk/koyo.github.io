@@ -18,6 +18,10 @@
   box-sizing: border-box;
 }
 
+.about p + p {
+  margin-top: 12px;
+}
+
 body {
   margin: 0;
   font-family: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
